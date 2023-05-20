@@ -1,0 +1,71 @@
+body {
+  background-image: url(../img/Storm\ Clouds\ GIF\ -\ Find\ &\ Share\ on\ GIPHY.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh !important;
+  width: 100% !important;
+  font-family: "Cardo", serif !important;
+}
+
+li {
+  list-style-type: none;
+}
+
+h1 {
+  font-size: 65px !important;
+}
+
+@media screen and (min-width: 768px) {
+  #box {
+    margin-right: 120px !important;
+  }
+}
+
+#list {
+  margin-right: 100px !important;
+  border-radius: 10px;
+  transition: 0.9s;
+  margin-top: 5px;
+  border: 1px solid rgb(191, 178, 224);
+  background-color: rgba(166, 212, 252, 0.708) !important;
+}
+#list * {
+  color: rgb(20, 21, 21) !important;
+}
+
+button {
+  background-color: rgba(106, 87, 199, 0.8823529412) !important;
+  color: azure !important;
+  border: none !important;
+  outline-style: double;
+  border-radius: 5px;
+  box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  margin: 0;
+  transition: 0.4s;
+}
+button:hover {
+  background-color: #fff !important;
+  color: deepskyblue !important;
+}
+
+input {
+  background-color: rgba(43, 41, 41, 0.8823529412);
+  color: azure;
+  border: none !important;
+  outline: none !important;
+  border-radius: 5px;
+  box-shadow: 12px 12px 7px rgba(0, 0, 0, 0.7);
+  margin: 0;
+}
+input::-moz-placeholder {
+  color: azure;
+}
+input::placeholder {
+  color: azure;
+}
+
+.line {
+  height: 2px;
+  background: rgba(28, 29, 29, 0.584);
+}/*# sourceMappingURL=style.css.map */
